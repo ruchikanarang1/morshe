@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    padding-top: 50px;
+    width:100%;
+    height:100%;
+    background-color:white;
+}
+
+#nav{
+    top:0;
+    height: 100px;
+    width: 50%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 20px;
+    gap: 45px;
+    position: fixed;
+    z-index: 99;
+    background-color: black;
+    
+
+}
+
+#nav1{
+    height: 100px;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 90px;
+    gap: 45px;
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    background-color: black;
+
+}
+
+#nav img{
+    height: 80px;
+}
+
+#nav h4{text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+
+#card-container{
+    
+    position: relative;
+    width:100%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    
+    
+}
+
+.card{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color:white;
+    height:470px;
+    width: 300px;
+    border-radius: 20px;
+    gap:30px;
+    margin:10px;
+    margin-top: 30px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 5px 5px 1px grey;
+    transition: 1s;
+    border: 0.5px grey solid;
+    
+    
+    
+}
+
+.pdimg{
+position: absolute;
+height:65%;
+width:90%;
+border-radius: 20px;
+align-items: center;
+top:5%;
+border: 2px grey solid;
+    
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+font-face{
+    font-family: forname;
+    src: url(https://fonts.google.com/specimen/Salsa?preview.text=pink%20panda%20charm);
+}
+.card h3{
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    top:70%;
+    font-size: 18px;
+    text-transform:uppercase;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px;
+}
+
+.card h6{
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    top:87%;
+    font-size: 17px;
+    font-style:italic ;
+    color: grey;
+    font-weight: 300;
+    text-align: center;
+}
+
+.card button{
+    position: absolute;
+    top: 88%;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    padding: 6px;
+    transform: translate(-50%,60%);
+}
+
+
